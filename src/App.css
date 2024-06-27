@@ -1,38 +1,48 @@
-.App {
+body{
+  background: url(hdpa01.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  background-position: center;
+}
+.hdpaform{
+  width: 350px;
+  margin: 250px auto;
+  padding: 10px 20px 30px;
+  color: rgb(251, 255, 0);
+  font-size: 16px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border-color:darkseagreen;
+}
+
+.hdpaform h1{
   text-align: center;
+  color: maroon;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hdpaform .textlabel{
+  display: block;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input input{
+  width: 100%;
+  font-size: 1.2em;
+  border: 1px solid gray;
+  box-shadow: 2px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  margin: 5px 0px 15px;
 }
+.btn{
+  text-align: center;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+button{
+  background-color: burlywood;
+  font-size: 15px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-top: 20px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  
 }
