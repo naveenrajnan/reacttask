@@ -1,17 +1,18 @@
 import React from "react";
-function submitform(event){
-  event.preventDefault();
-  var uname = document.getElementById("age").value;
 
-if(uname===""){
-     alert("Enter age");
-  }
-  else {
-    alert("Registered Successfully");
-    
-  }
-}
 export function Login(){
+  function submitform(event){
+    event.preventDefault();
+    var uname = document.getElementById("age").value;
+  
+  if(uname===""){
+       alert("Enter age");
+    }
+    else {
+      alert("Registered Successfully");
+      
+    }
+  }
     return(
       <>
       <div class="hdpaform">
